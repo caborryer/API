@@ -1,0 +1,33 @@
+{
+  "name": "apisupermarketr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caborryer/ApiSupermarketr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caborryer/ApiSupermarketr/issues"
+  },
+  "homepage": "https://github.com/caborryer/ApiSupermarketr#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
